@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles/main/main.css">
+        <title>HOMEPAGE</title>
+    </head>
+    <body>
+        <div class="totalContainer">
+            <div class="totalContainerInside">
+                <div class="left">
+                    <button class="transitionButton transitionButtonRight">
+                        Sign up
+                        <i class="fa-solid fa-arrow-right"
+                            style="color: #ffffff;"></i>
+                    </button>
+                    <div class="loginContainer">
+
+                        <div class="top loginContainerPart">
+                            <label class="textContainer">
+                                <i class="fa-solid fa-light fa-user"
+                                    style="color: #ffffff; font-size: 24px;"></i>
+                                <input type="text"
+                                    class="usernameInputLeft input"
+                                    autocomplete="true">
+                            </label>
+                            <h1 class="errorWordLeft errorWordLeftUsername">Incorrect</h1>
+                        </div>
+
+                        <div class="bottom loginContainerPart">
+                            <label class="textContainer">
+                                <i class="fa-solid fa-lock"
+                                    style="color: white; 
+                    font-size: 24px; padding: 2px;"></i>
+                                <input type="password"
+                                    class="passwordInputLeft input">
+                            </label>
+                            <h1 class="errorWordLeft errorWordLeftPassword">Incorrect</h1>
+                        </div>
+
+                        <button class="loginButtonLeft">LOGIN</button>
+                        <div class="loginBottomContainer">
+                            <label for="forRememberMe">
+                                <input type="checkbox" id="forRememberMe"
+                                    class="passwordInput">
+                                Remember Me
+                            </label>
+                            <button class="forgetPasswordButton">Forget Password</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="transitionButton transitionButtonLeft">
+                        <i class="fa-solid fa-arrow-left"
+                            style="color: #ffffff;"></i>
+                        Sign in
+                    </button>
+                    <div class="loginContainer">
+                        <label class="textContainer">
+                            <i data-info="email"
+                                class="fa-solid fa-light fa-at"
+                                style="color: #ffffff; font-size: 24px;"></i>
+                            <input type="text" class="emailInputRight input"
+                                autocomplete="true">
+                        </label>
+                        <label class="textContainer">
+                            <i data-info="username"
+                                class="fa-solid fa-light fa-user"
+                                style="color: #ffffff; font-size: 24px;"></i>
+                            <input type="text" class="usernameInputRight input"
+                                autocomplete="true">
+                        </label>
+                        <label class="textContainer">
+                            <i data-info="password" class="fa-solid fa-lock"
+                                style="color: #ffffff; font-size: 24px;"></i>
+                            <input type="password"
+                                class="passwordInputRight input">
+                        </label>
+                        <label class="textContainer">
+                            <i data-info="re-password"
+                                class="fa-solid fa-unlock"
+                                style="color: #ffffff; font-size: 24px;"></i>
+                            <input type="password"
+                                class="rePasswordInputRight input">
+                        </label>
+                        <button class="loginButton">LOGIN</button>
+                        <div class="loginBottomContainer">
+                            <label for="forRememberMe">
+                                <input type="checkbox" id="forRememberMe"
+                                    class="passwordInput">
+                                Remember Me
+                            </label>
+                            <button class="forgetPasswordButton">Forget Password</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./jsfiles/mainJs.js"></script>
+    </body>
+</html>

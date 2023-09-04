@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  max-width: 1535px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0A0F13;
+}
+body .totalContainer {
+  width: 1535px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body .totalContainer .totalContainerInside {
+  width: 100%;
+  display: flex;
+  transition: 0.6s;
+}
+body .totalContainer .totalContainerInside .left {
+  min-width: 1535px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url(../../images/wallpaper3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .totalContainer .totalContainerInside .left .loginContainer {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 19px 0px;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .input {
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  padding-right: 5px;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .textContainer {
+  border: solid 2px white;
+  border-radius: 3px;
+  display: flex;
+  gap: 5px;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .fa-solid {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .loginButton {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: solid 2px white;
+  transition: 1.3s;
+  font-weight: 700;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .loginBottomContainer {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .loginBottomContainer label[for=forRememberMe] {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .loginBottomContainer label[for=forRememberMe] #forRememberMe {
+  width: 16px;
+  height: 16px;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .loginBottomContainer .forgetPasswordButton {
+  transition: 0.6s;
+}
+body .totalContainer .totalContainerInside .left .loginContainer .loginBottomContainer .forgetPasswordButton:hover {
+  text-decoration: underline;
+}
+body .totalContainer .totalContainerInside .right {
+  min-width: 1535px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url(../../images/wallpaper3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .totalContainer .totalContainerInside .right .loginContainer {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 19px 0px;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .input {
+  width: 250px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  padding-right: 5px;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .textContainer {
+  border: solid 2px white;
+  border-radius: 3px;
+  display: flex;
+  gap: 5px;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .fa-solid {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .fa-solid::after {
+  content: attr(data-info);
+  position: absolute;
+  right: 0;
+  top: 40%;
+  transition: 0.6s;
+  font-size: 12px;
+  opacity: 0;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .fa-solid:hover::after {
+  right: -100px;
+  opacity: 1;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .loginButton {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: solid 2px white;
+  transition: 1.3s;
+  font-weight: 700;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .loginBottomContainer {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .loginBottomContainer label[for=forRememberMe] {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .loginBottomContainer label[for=forRememberMe] #forRememberMe {
+  width: 16px;
+  height: 16px;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .loginBottomContainer .forgetPasswordButton {
+  transition: 0.6s;
+}
+body .totalContainer .totalContainerInside .right .loginContainer .loginBottomContainer .forgetPasswordButton:hover {
+  text-decoration: underline;
+}
+body .totalContainer .totalContainerInside .transitionButton {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+}
+body .totalContainer .totalContainerInside .transitionButtonRight {
+  top: 50px;
+  right: 50px;
+}
+body .totalContainer .totalContainerInside .transitionButtonLeft {
+  top: 50px;
+  left: 50px;
+}
+
+.errorWordLeft {
+  color: red;
+  font-size: 13px;
+  font-weight: 400;
+  display: none;
+}
+
+.loginContainerPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../styles/user/user.css">
+        <script src="../jsfiles/user.js" defer></script>
+        <title>User</title>
+    </head>
+    <body>
+        <div class="totalContainer">
+            <div class="totalContainerLeft">
+                <a class="logo" href="../index.html">MoviElchin</a>
+                <div class="darkOrLight">
+                    <button class="lightButton">
+                        <i class="fa-regular fa-sun"
+                            style="color: #656370; size: 14px;"></i>
+                        Light
+                    </button>
+                    <button class="darkButton">
+                        <i class="fa-regular fa-moon" style="color: #ffffff;"></i>
+                        Dark
+                    </button>
+                </div>
+                <ul class="movieMenu">
+                    <li class="movieMenuLi homeButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-house"
+                                style="color: #646369;"></i>
+                            Home
+                        </button>
+                    </li>
+                    <li class="movieMenuLi basketButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-basket-shopping"
+                                style="color: #646369;"></i>
+                            Basket
+                        </button>
+                    </li>
+                    <li class="movieMenuLi popularButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-thumbs-up"
+                                style="color: #646369;"></i>
+                            Popular
+                        </button>
+                    </li>
+                    <li class="movieMenuLi discoverButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-compass"
+                                style="color: #646369;"></i>
+                            Discover
+                        </button>
+                    </li>
+                    <li class="movieMenuLi favoritesButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-star"
+                                style="color: #646369;"></i>
+                            Favorites
+                        </button>
+                    </li>
+                    <li class="movieMenuLi categoriesButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-list"
+                                style="color: #646369;"></i>
+                            Caregories
+                        </button>
+                    </li>
+                    <li class="movieMenuLi settingsButton">
+                        <button class="movieMenuLiButton">
+                            <i class="menuIcon fa-solid fa-gear"
+                                style="color: #646369;"></i>
+                            Settings
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="totalContainerRight">
+                <div class="totalContainerRightTop">
+                    <label for="forSearchBar" class="forSearchBar">
+                        <button class="searchBarButton">
+                            <i class="fa-solid fa-magnifying-glass"
+                                style="color: #808080;"></i>
+                        </button>
+                        <input type="text" id="forSearchBar"
+                            placeholder="Search">
+                    </label>
+                    <div class="topLinks">
+                        <button class="moviesButton">Movies</button>
+                        <button class="tvSeriesButton">TV Series</button>
+                    </div>
+
+                    <div class="ourProfile">
+                        <button class="yourImage"></button>
+                    </div>
+                </div>
+                <div class="totalContainerRightInside">
+                    <div class="menuChoises">
+                        <div class="homePart choises">
+
+                            <div class="recommendPartTop">
+                                <img class="recommendPartTopImage"
+                                    src="../images/normal/godzilla2.jpg"
+                                    alt="err">
+                                <h1 class="movieName">Monarch: Legacy of
+                                    Monsters</h1>
+                                <div class="buttonsContainer">
+                                    <button class="otherButton">Drama</button>
+                                    <button class="otherButton">Romance</button>
+                                </div>
+                                <p class="description">Legendary Entertainment
+                                    expands
+                                    its
+                                    MonsterVerse beyond the big screen to a
+                                    Apple
+                                    TV+
+                                    streaming series about Monarch, the monster
+                                    research
+                                    agency that tracks Godzilla, King Kong, and
+                                    other
+                                    kaiju.</p>
+                                <div class="buttonsContainer">
+                                    <button class="watchButton">Watch</button>
+                                    <button class="wishButton">
+                                        <i class="fa-solid fa-heart"
+                                            style="color: #ffffff; font-size: 24px;"></i>
+                                    </button>
+                                </div>
+                                <button class="playButton">
+                                    <p>Watch Trailer with sound</p>
+                                    <i class="fa-regular fa-circle-play"
+                                        style="color: #ffffff;"></i>
+                                </button>
+                            </div>
+
+                            <div class="recommendPartBottom">
+                                <h1>New movies you'll want to watch</h1>
+                                <div class="moviesPart">
+                                    <div class="moviesPartInside">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basketPart choises">
+                            <div class="basketInside">
+                                <div class="basketTop">
+                                </div>
+                                <div class="basketMiddle">
+                                    <div class="itemsInfo">
+                                        <p>SubTotal</p>
+                                        <h2 class="itemsPrice">0</h2>
+                                    </div>
+                                    <div class="itemsInfo">
+                                        <p>Discount</p>
+                                        <h2 class="itemsDiscount">0</h2>
+                                    </div>
+                                </div>
+                                <div class="basketBottom">
+                                    <h1 class="totalWord">Total</h1>
+                                    <h1 class="totalPrice">0</h1>
+                                </div>
+                            </div>
+                            <button class="totalMoviePricesPayButton">PAY</button>
+                        </div>
+                        <div class="popularPart choises">POPULAR</div>
+                        <div class="discoverPart choises">DISCOVER</div>
+                        <div class="favoritesPart choises">FAVORITES</div>
+                        <div class="categoriesPart choises">CATEGORIES</div>
+                        <div class="settingsPart choises">SETTINGS</div>
+                    </div>
+
+                    <div class="tvSeriesPart">
+                        TV SERIES PART
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loader"></div>
+    </body>
+</html>
